@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Tue Jun 02 2026 07:47:24 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Wed Jun 03 2026 12:28:17 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6a1959077bddd31cdaecc727" data-wf-site="6a1959037bddd31cdaecc6fa" lang="en">
 <head>
   <meta charset="utf-8">
@@ -84,49 +84,9 @@
   ]
 }
 </script>
-  <style>
-.app::before {
-  content: "";
-  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1295275/background-noise.png');
-  animation: 0.2s infinite noise;
-  pointer-events: none;
-}
-@keyframes noise {
-  0%, 100% {
-    background-position: 0 0;
-  }
-  10% {
-    background-position: -5% -10%;
-  }
-  20% {
-    background-position: -15% 5%;
-  }
-  30% {
-    background-position: 7% -25%;
-  }
-  40% {
-    background-position: 20% 25%;
-  }
-  50% {
-    background-position: -25% 10%;
-  }
-  60% {
-    background-position: 15% 5%;
-  }
-  70% {
-    background-position: 0% 15%;
-  }
-  80% {
-    background-position: 25% 35%;
-  }
-  90% {
-    background-position: -10% 10%;
-  }
-}
-</style>
 </head>
 <body data-theme-status="dark" class="body">
-  <div class="w-embed">
+  <div class="global__css w-embed">
     <style>
 /* Background */
 [data-theme-status] {
@@ -152,87 +112,10 @@
 [data-theme-status="dark"] .btn-darklight .btn-darklight__icon-box{
   transform: translateY(-100%) rotate(0.001deg);
 }
-    *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  html {
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-    text-rendering: optimizeLegibility;
-  }
-  body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    font-feature-settings: 'kern', 'liga', 'calt';
-    font-kerning: normal;
-  }
-  html,
-  body {
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-  html::-webkit-scrollbar,
-  body::-webkit-scrollbar,
-  *::-webkit-scrollbar {
-    display: none;
-    width: 0;
-    height: 0;
-  }
-  ::selection {
-    background-color: var(--_colors---bamx-copper);
-    color: var(--_colors---bamx-cream);
-    text-shadow: none;
-  }
-  ::-moz-selection {
-    background-color: var(--_colors---bamx-copper;
-    color: var(--_colors---bamx-cream);
-    text-shadow: none;
-  }
-  img,
-  picture,
-  video,
-  canvas,
-  svg {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  img {
-    -webkit-user-drag: none;
-    user-select: none;
-  }
-  input,
-  button,
-  textarea,
-  select {
-    font: inherit;
-    color: inherit;
-    background: none;
-    border: none;
-    outline: none;
-  }
-  button {
-    cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
-  }
-a {
-  color: inherit;
-  text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
+  * {
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
 }
-  :focus-visible {
-    outline: 2px solid var(--_colors---bmx-white);
-    outline-offset: 2px;
-  }
-  :focus:not(:focus-visible) {
-    outline: none;
-  }
 </style>
   </div>
   <main class="app">
@@ -260,15 +143,64 @@ a {
                 <div class="dyamic__time is--dark">
                   <p data-current-time="" class="eyebrow"><span data-current-time-hours="">9</span>:<span data-current-time-minutes="">00</span>:<span data-current-time-seconds="">24</span> </p>
                 </div><button data-theme-toggle="" data-enable-audio="" class="btn-darklight is--dark">
-                  <div class="btn-darklight__word">
-                    <p class="btn-darklight__word-p">Light</p>
-                    <p class="btn-darklight__word-p is--absolute">Dark</p>
+                  <div id="" class="btn-darklight__word">
+                    <p class="btn-darklight__word-p">LIGHT</p>
+                    <p class="btn-darklight__word-p is--absolute">DARK</p>
                   </div>
-                  <p class="btn-darklight__word-p">mode</p>
-                </button><button data-enable-audio="" data-btn-audio="" class="btn is--dark">audio</button>
-                <a href="mailto:hello@whtppr.ink?subject=New%20Project%20Request" class="btn is--dark w-inline-block">
-                  <div>hello@whtppr.ink</div>
+                  <p data-button-069-text="" class="btn-darklight__word-p">MODE</p>
+                </button><button data-enable-audio="" data-btn-audio="" class="btn is--dark">
+                  <div>AUDIO</div>
+                </button>
+                <a data-button-069="" href="mailto:hello@whtppr.ink?subject=New%20project%20together%20" class="btn is--dark w-inline-block">
+                  <div data-button-069-text="" class="eyebrow">REACH US NOW</div>
+                  <div class="btn__css w-embed">
+                    <style>
+  :root {
+    --button-069-color: #131313;
+    --button-069-color-background: #fff;
+    --button-069-color-focus: #fff;
+    --button-069-padding: 0.75em 1em;
+    --button-069-border-radius: 2.5em;
+    --button-069-focus-inset: -0.125em;
+    --button-069-ease-focus: cubic-bezier(0.32, 0.72, 0, 1);
+  }
+  .button-069 {
+    -webkit-tap-highlight-color: transparent;
+  }
+  .button-069:is(:focus-visible)::after {
+    box-shadow: 0 0 0 0.125em var(--button-069-color-focus);
+  }
+  .button-069::after {
+    content: '';
+    display: block;
+    position: absolute;
+    inset: var(--button-069-focus-inset);
+    border-radius: var(--button-069-border-radius);
+    transition: box-shadow 0.3s var(--button-069-ease-focus);
+    pointer-events: none;
+    z-index: 1;
+  }
+</style>
+                  </div>
                 </a>
+              </div>
+            </div>
+            <div class="sh__col-spots">
+              <div class="spots__content is--dark">
+                <div class="spots__icon">
+                  <div class="spots__css w-embed">
+                    <style>
+  @keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.spots__icon {
+  animation: blink 1s step-start infinite;
+}
+</style>
+                  </div>
+                </div>
+                <div class="eyebrow">Available spots for June</div>
               </div>
             </div>
             <div class="sh__col-p is--dark">
@@ -277,18 +209,22 @@ a {
           </div>
           <section class="mwg088">
             <div class="mwg088-container">
-              <div class="mwg088-media-parent"><img src="images/imgi_26_657664876_18574232695031859_2478967478826691703_n.avif" loading="lazy" sizes="(max-width: 1440px) 100vw, 1440px" srcset="images/imgi_26_657664876_18574232695031859_2478967478826691703_n-p-500.avif 500w, images/imgi_26_657664876_18574232695031859_2478967478826691703_n-p-800.avif 800w, images/imgi_26_657664876_18574232695031859_2478967478826691703_n.avif 1440w" alt="Subway station platform with a digital display showing concentric circle design and commuters walking by." class="mwg088-media"></div>
-              <div class="mwg088-media-parent"><img src="images/Rectangle-152.avif" loading="lazy" sizes="(max-width: 1053px) 100vw, 1053px" srcset="images/Rectangle-152-p-500.avif 500w, images/Rectangle-152.avif 1053w" alt="Close-up of a face wearing reflective futuristic orange-tinted glasses with light reflections." class="mwg088-media"></div>
-              <div class="mwg088-media-parent"><img src="images/mie.avif" loading="lazy" alt="Person typing on MacBook Pro showing screen with text &#x27;ECOMMERCE INNOVATION AGENCY&#x27;." class="mwg088-media"></div>
-              <div class="mwg088-media-parent"><img src="images/imgi_12_6958d5382378acf2b548e981_buds.avif" loading="lazy" alt="Side profile of a person wearing white headphones with visible electronic circuit parts." class="mwg088-media"></div>
-              <div class="mwg088-media-parent"><img src="images/imgi_19_6958d4f5d4d5d7d43bb5df1e_Earbuds.avif" loading="lazy" alt="Profile of a young man wearing black wireless earbuds against a plain gray background." class="mwg088-media"></div>
-              <div class="mwg088-media-parent"><img src="images/imgi_16_658155427_18573644968031859_5547337125637976663_n.avif" loading="lazy" sizes="(max-width: 1080px) 100vw, 1080px" srcset="images/imgi_16_658155427_18573644968031859_5547337125637976663_n-p-500.avif 500w, images/imgi_16_658155427_18573644968031859_5547337125637976663_n.avif 1080w" alt="Wireless earbuds with black base and frosted translucent earbuds on a light textured background." class="mwg088-media"></div>
-              <div class="mwg088-media-parent"><img src="images/imgi_108_frame-001.webp" loading="lazy" sizes="(max-width: 1919px) 100vw, 1920px" srcset="images/imgi_108_frame-001-p-500.webp 500w, images/imgi_108_frame-001-p-800.webp 800w, images/imgi_108_frame-001-p-1080.webp 1080w, images/imgi_108_frame-001-p-1600.webp 1600w, images/imgi_108_frame-001.webp 1920w" alt="Black and white photo of a large crowd wearing 3D glasses and looking upward in unison." class="mwg088-media"></div>
-              <div class="mwg088-media-parent"><img src="images/Hero.avif" loading="lazy" sizes="(max-width: 1282px) 100vw, 1282px" srcset="images/Hero-p-500.avif 500w, images/Hero-p-800.avif 800w, images/Hero.avif 1282w" alt="Glowing green wireframe 3D shape with angled branches on a black background." class="mwg088-media"></div>
-              <div class="mwg088-media-parent"><img src="images/imgi_11_6958d5b553d13d29367133ef_nostalgic.avif" loading="lazy" alt="Close-up of serene face wrapped in delicate, translucent beige mesh fabric." class="mwg088-media"></div>
-              <div class="mwg088-media-parent"><img src="images/imgi_26_656058040_18574232677031859_8551199313468518965_n.avif" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" srcset="images/imgi_26_656058040_18574232677031859_8551199313468518965_n-p-500.avif 500w, images/imgi_26_656058040_18574232677031859_8551199313468518965_n.avif 1200w" alt="Billboard on brick wall reads: zero surveillance maximum intelligence open source is trust." class="mwg088-media"></div>
-              <div class="mwg088-media-parent"><img src="images/Cover-SOTD.avif" loading="lazy" sizes="(max-width: 1080px) 100vw, 1080px" srcset="images/Cover-SOTD-p-500.avif 500w, images/Cover-SOTD-p-800.avif 800w, images/Cover-SOTD.avif 1080w" alt="Blurred silhouette of a person bending forward with motion effects creating streaks around them." class="mwg088-media"></div>
-              <div class="mwg088-media-parent"><img src="images/imgi_21_624453824_18109966285730925_6325979094002458983_n.avif" loading="lazy" sizes="100vw" srcset="images/imgi_21_624453824_18109966285730925_6325979094002458983_n-p-500.avif 500w, images/imgi_21_624453824_18109966285730925_6325979094002458983_n-p-800.avif 800w, images/imgi_21_624453824_18109966285730925_6325979094002458983_n.avif 1440w" alt="Portrait painting of a person with white hair holding a cigarette against a red background." class="mwg088-media"></div>
+              <div class="mwg088-media-parent"><img src="images/Mockup-1.avif" loading="lazy" alt="Subway station platform with a digital display showing concentric circle design and commuters walking by." class="mwg088-media"></div>
+              <div class="mwg088-media-parent"><img src="images/imgi_54_657664876_18574232695031859_2478967478826691703_n.jpg" loading="lazy" sizes="(max-width: 1440px) 100vw, 1440px" srcset="images/imgi_54_657664876_18574232695031859_2478967478826691703_n-p-500.jpg 500w, images/imgi_54_657664876_18574232695031859_2478967478826691703_n-p-800.jpg 800w, images/imgi_54_657664876_18574232695031859_2478967478826691703_n-p-1080.jpg 1080w, images/imgi_54_657664876_18574232695031859_2478967478826691703_n.jpg 1440w" alt="Framed digital display with concentric circles forming &#x27;i&amp;o&#x27; in a busy subway station." class="mwg088-media"></div>
+              <div class="mwg088-media-parent"><img src="images/matte__branding.avif" loading="lazy" alt="Person typing on MacBook Pro showing screen with text &#x27;ECOMMERCE INNOVATION AGENCY&#x27;." class="mwg088-media"></div>
+              <div class="mwg088-media-parent"><img src="images/sidephone.avif" loading="lazy" alt="Matte.Black poster with abstract architectural design placed on a black leather chair with wooden arms." class="mwg088-media"></div>
+              <div class="mwg088-media-parent"><img src="images/Mockup-13.avif" loading="lazy" alt="Two smartphones displaying futuristic vintage designs and digital fashion collections on an orange and white surface." class="mwg088-media"></div>
+              <div class="mwg088-media-parent"><img src="images/soft__branding.avif" loading="lazy" alt="A card with text about soft grey on three rusted metal pipes on grass." class="mwg088-media"></div>
+              <div class="mwg088-media-parent"><img src="images/nr__mob.avif" loading="lazy" alt="Close-up of a face wearing reflective futuristic orange-tinted glasses with light reflections." class="mwg088-media"></div>
+              <div class="mwg088-media-parent"><img src="images/imgi_55_656208162_18586814074062198_7291927233107648497_n.jpg" loading="lazy" sizes="(max-width: 1440px) 100vw, 1440px" srcset="images/imgi_55_656208162_18586814074062198_7291927233107648497_n-p-500.jpg 500w, images/imgi_55_656208162_18586814074062198_7291927233107648497_n-p-800.jpg 800w, images/imgi_55_656208162_18586814074062198_7291927233107648497_n-p-1080.jpg 1080w, images/imgi_55_656208162_18586814074062198_7291927233107648497_n.jpg 1440w" alt="Black subway poster with white text: life is out there, friend, do not stare into light, look up and be here." class="mwg088-media"></div>
+              <div class="mwg088-media-parent"><img src="images/y1xbevpffv3exdrdas5h.avif" loading="lazy" alt="Laptop on white table shows holographic PVC hoodie design on screen in a monochrome room." class="mwg088-media"></div>
+              <div class="mwg088-media-parent"><img src="images/Mockup-14_1.avif" loading="lazy" alt="Laptop on white table shows holographic PVC hoodie design on screen in a monochrome room." class="mwg088-media"></div>
+              <div class="mwg088-media-parent"><img src="images/Mockup-19.avif" loading="lazy" alt="Laptop on white table shows holographic PVC hoodie design on screen in a monochrome room." class="mwg088-media"></div>
+            </div>
+          </section>
+          <section class="mwg019">
+            <div class="container">
+              <div class="content"><img sizes="(max-width: 1440px) 100vw, 1440px" srcset="images/imgi_54_657664876_18574232695031859_2478967478826691703_n-p-500.jpg 500w, images/imgi_54_657664876_18574232695031859_2478967478826691703_n-p-800.jpg 800w, images/imgi_54_657664876_18574232695031859_2478967478826691703_n-p-1080.jpg 1080w, images/imgi_54_657664876_18574232695031859_2478967478826691703_n.jpg 1440w" alt="Digital ad with bright white concentric line design in subway station with commuters walking by." src="images/imgi_54_657664876_18574232695031859_2478967478826691703_n.jpg" loading="lazy" class="media"><img loading="lazy" src="images/Mockup-1.avif" alt="Smartphone on metal arm displays 3D product view of black and white wireless earbuds." class="media"><img loading="lazy" src="images/matte__branding.avif" alt="Black and white poster with modern architecture titled &#x27;MATTE.BLACK&#x27; placed on a black leather chair." class="media"><img loading="lazy" src="images/sidephone.avif" alt="Silver laptop resting on a cluster of smooth, rounded, shiny white stones against a neutral background." class="media"><img loading="lazy" src="images/Mockup-1.avif" alt="Smartphone displaying 3D model of an earbud on black and orange metallic surface." class="media"><img loading="lazy" src="images/Mockup-19.avif" alt="Open laptop displaying a grid of images including clothing, phones, and art on a black background." class="media"><img loading="lazy" src="images/soft__branding.avif" alt="Paper with design text rests on curved metal pipes on grass in sunlight." class="media"><img loading="lazy" src="images/nr__index.avif" alt="Laptop showing a webpage titled &#x27;THE INDEX&#x27; with design text and pixelated images, on a cinder block." class="media"><img loading="lazy" src="images/Mockup-13.avif" alt="Two smartphones on orange and white geometric surfaces displaying futuristic vintage designs and portraits." class="media"><img loading="lazy" src="images/Mockup-14.avif" alt="Laptop on orange cabinet shows an app interface with a man hugging a woman and text about AI apps." class="media"><img loading="lazy" src="images/y1xbevpffv3exdrdas5h.avif" alt="Laptop on white table displaying a holographic PVC jacket design on a black screen." class="media"><img loading="lazy" src="images/Mockup-14_1.avif" alt="Laptop on orange table showing app interface with text &#x27;Two taps to intelligence&#x27; and two people in background." class="media"><img sizes="(max-width: 1440px) 100vw, 1440px" srcset="images/imgi_54_657664876_18574232695031859_2478967478826691703_n-p-500.jpg 500w, images/imgi_54_657664876_18574232695031859_2478967478826691703_n-p-800.jpg 800w, images/imgi_54_657664876_18574232695031859_2478967478826691703_n-p-1080.jpg 1080w, images/imgi_54_657664876_18574232695031859_2478967478826691703_n.jpg 1440w" alt="Subway station corridor with people walking past a wall display featuring concentric circular lines." src="images/imgi_54_657664876_18574232695031859_2478967478826691703_n.jpg" loading="lazy" class="media"><img loading="lazy" src="images/Mockup-1.avif" alt="Smartphone displaying a 3D model of a product on an orange and black metal surface." class="media"><img loading="lazy" src="images/matte__branding.avif" alt="Matte.Black poster with abstract architectural design resting on a black leather tufted chair." class="media"><img loading="lazy" src="images/sidephone.avif" alt="Laptop displaying blue smartphone on screen, resting on a glossy white abstract sculpture." class="media"><img loading="lazy" src="images/Mockup-1.avif" alt="Smartphone on orange hexagonal mesh shelf showing 3D object and interface details on screen." class="media"><img loading="lazy" src="images/Mockup-19.avif" alt="A laptop screen displaying a grid of various digital images and designs against a dark background." class="media"><img loading="lazy" src="images/soft__branding.avif" alt="Card with text about soft grey color placed on curved metal pipes on grass." class="media"><img loading="lazy" src="images/nr__index.avif" alt="Laptop with a website titled &#x27;THE INDEX&#x27; displayed on a screen, placed on a concrete block." class="media"><img loading="lazy" src="images/Mockup-13.avif" alt="Two smartphones on white and orange geometric surfaces showing futuristic and vintage digital designs." class="media"><img loading="lazy" src="images/Mockup-14.avif" alt="Laptop on an orange desk displaying app interface with a man and woman in the background." class="media"><img loading="lazy" src="images/y1xbevpffv3exdrdas5h.avif" alt="Laptop on a shiny metallic table shows a holographic PVC jacket design on screen." class="media"><img loading="lazy" src="images/Mockup-14_1.avif" alt="Laptop on an orange metal surface showing an app interface with two people and text &#x27;Two taps to intelligence&#x27;." class="media"></div>
             </div>
           </section>
           <div class="sh__col is--r">
@@ -310,40 +246,6 @@ a {
           <div class="sh__overlay top is--dark"></div>
           <div class="sh__overlay bottom is--dark"></div>
         </div>
-        <section class="mwg060">
-          <div class="code-embed w-embed">
-            <style>
-.mwg060-slide:nth-child(1),
-.mwg060-slide:nth-child(2),
-.mwg060-slide:nth-last-child(1),
-.mwg060-slide:nth-last-child(2) {
-  visibility: hidden;
-}
-</style>
-          </div>
-          <div class="mwg060-pin-height">
-            <div class="mwg060-container">
-              <div class="mwg060-slides">
-                <div class="mwg060-slide"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="mwg060-media"></div>
-                <div class="mwg060-slide"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="mwg060-media"></div>
-                <div class="mwg060-slide"><img src="images/Rectangle-152.avif" loading="lazy" sizes="(max-width: 1053px) 100vw, 1053px" alt="Close-up of a person&#x27;s face wearing reflective orange-tinted goggles in low light." class="mwg060-media"></div>
-                <div class="mwg060-slide"><img src="images/Desktop - 10.avif" loading="lazy" sizes="(max-width: 1440px) 100vw, 1440px"  alt="Digital art with concentric white lines forming &#x27;i&#x27; and &#x27;o&#x27; on subway platform wall." class="mwg060-media"></div>
-                <div class="mwg060-slide"><img src="images/imgi_108_frame-001.webp" loading="lazy" sizes="(max-width: 1919px) 100vw, 1920px"  alt="Black and white photo of many people wearing 3D glasses looking upward in unison." class="mwg060-media"></div>
-                <div class="mwg060-slide"><img src="images/Desktop - 7.avif" loading="lazy" sizes="100vw" alt="Digital painting of a person with white hair holding a cigarette against a red background." class="mwg060-media"></div>
-                <div class="mwg060-slide"><img src="images/Desktop - 1.avif" loading="lazy" alt="Black and white artistic portrait of a person wearing glasses and a hood, looking upward." class="mwg060-media"></div>
-                <div class="mwg060-slide"><img src="images/imgi_26_657664876_18574232695031859_2478967478826691703_n.avif" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" alt="Outdoor black billboard on brick wall with text about zero surveillance and open source trust." class="mwg060-media"></div>
-                <div class="mwg060-slide"><img src="images/imgi_19_6958d4f5d4d5d7d43bb5df1e_Earbuds.avif" loading="lazy" alt="Profile of a man wearing a black wireless earbud against a gray background." class="mwg060-media"></div>
-                <div class="mwg060-slide"><img src="images/Desktop - 12.avif" loading="lazy" alt="Bold concrete geometric shapes radiating outward with text overlay about liquid geometry meeting bold shapes." class="mwg060-media"></div>
-                <div class="mwg060-slide"><img src="images/Desktop - 11.avif" loading="lazy" alt="Blurred image of tennis player hitting a ball on a blue court." class="mwg060-media"></div>
-                <div class="mwg060-slide"><img src="images/imgi_16_658155427_18573644968031859_5547337125637976663_n.avif" loading="lazy" sizes="(max-width: 1080px) 100vw, 1080px" alt="Pair of modern black earbuds, one with a reflective gradient surface, on a textured white background." class="mwg060-media"></div>
-                <div class="mwg060-slide"><img src="images/Desktop - 6.avif" loading="lazy" sizes="(max-width: 1282px) 100vw, 1282px" alt="Glowing green 3D wireframe structure on black background forming a bent shape." class="mwg060-media"></div>
-                <div class="mwg060-slide"><img src="images/Desktop - 9.avif" loading="lazy" alt="Person typing on a laptop displaying &#x27;Ecommerce Innovation Agency&#x27; on screen at night outdoors." class="mwg060-media"></div>
-                <div class="mwg060-slide"><img src="images/Desktop - 3.avif" loading="lazy" alt="Hands typing on a laptop showing a screen with the text Ecommerce Innovation Agency." class="mwg060-media"></div>
-                <div class="mwg060-slide"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="mwg060-media"></div>
-              </div>
-            </div>
-          </div>
-        </section>
         <div data-modal-group-status="not-active" class="modal">
           <div class="w-embed">
             <style>
@@ -421,22 +323,75 @@ a {
   <script src="https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js" type="text/javascript"></script>
   <script src="https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js" type="text/javascript"></script>
   <script src="https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js" type="text/javascript"></script>
-  <script type="text/javascript">gsap.registerPlugin(SplitText,ScrollTrigger);</script><!--  CSS  -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.2.3/dist/lenis.css">
-  <!--  JS  -->
-  <script src="https://cdn.jsdelivr.net/npm/lenis@1.2.3/dist/lenis.min.js"></script>
-  <!--  JS Lenis  -->
-  <script>
-  // Lenis (with GSAP Scroltrigger)
-  const lenis = new Lenis();
-  lenis.on('scroll', ScrollTrigger.update);
-  gsap.ticker.add((time) => {
-    lenis.raf(time * 1000);
-  });
-  gsap.ticker.lagSmoothing(0);
-</script>
+  <script src="https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js" type="text/javascript"></script>
+  <script type="text/javascript">gsap.registerPlugin(SplitText,ScrollTrigger,Observer);</script>
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@3/dist/js.cookie.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/howler@2.2.4/dist/howler.min.js"></script>
+  <script>
+function initButton069() {
+  const buttons = document.querySelectorAll('[data-button-069]');
+  if (!buttons.length) return;
+  const rotateRight = (s) => (s && s.length > 1 ? s.slice(-1) + s.slice(0, -1) : s);
+  function tokenize(text) {
+    const parts = text.match(/\S+|\s+/g) || [];
+    return parts.map((p) => {
+      if (/^\s+$/.test(p)) return { type: 'raw', raw: p };
+      const m = p.match(/^([\p{L}'’]+)(.*)$/u);
+      if (!m) return { type: 'raw', raw: p };
+      return { type: 'word', letters: m[1], trailing: m[2] || '' };
+    });
+  }
+  const mq = window.matchMedia('(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)');
+  if (!mq.matches) return;
+  buttons.forEach((element) => {
+    const hoverRoot = element.closest('[data-hover]') || element;
+    const textEl = element.querySelector('[data-button-069-text]') ?? element;
+    const speed = Number(element.getAttribute('data-button-069-speed')) || 46;
+    let timer = null;
+    let original = '';
+    const stop = () => {
+      if (timer) clearInterval(timer);
+      timer = null;
+      if (original) textEl.textContent = original;
+    };
+    const start = () => {
+      stop();
+      original = textEl.textContent;
+      const tokens = tokenize(original);
+      const wordTokens = tokens.filter((t) => t.type === 'word');
+      if (!wordTokens.length) return;
+      const maxLen = wordTokens.reduce((m, t) => Math.max(m, t.letters.length), 0);
+      let tick = 0;
+      timer = setInterval(() => {
+        for (const t of wordTokens) t.letters = rotateRight(t.letters);
+        textEl.textContent = tokens.map((t) => (t.type === 'word' ? t.letters + t.trailing : t.raw)).join('');
+        if (++tick >= maxLen) stop();
+      }, speed);
+    };
+    const onEnter = () => start();
+    const onLeave = () => {
+      if (hoverRoot.matches(':focus-visible')) return;
+      stop();
+    };
+    const onFocusIn = () => {
+      if (hoverRoot.matches(':focus-visible')) start();
+    };
+    const onFocusOut = () => {
+      if (hoverRoot.matches(':hover')) return;
+      stop();
+    };
+    hoverRoot.addEventListener('pointerenter', onEnter);
+    hoverRoot.addEventListener('pointerleave', onLeave);
+    hoverRoot.addEventListener('focusin', onFocusIn);
+    hoverRoot.addEventListener('focusout', onFocusOut);
+  });
+}
+document.addEventListener('DOMContentLoaded', () => {
+  document.fonts.ready.then(function () {
+    initButton069();
+  });
+});
+</script>
   <script>
   function initWelcomingWordsLoader() {
     const loadingContainer = document.querySelector('[data-loading-container]');
@@ -621,98 +576,6 @@ a {
   });
 </script>
   <script>
-  (function () {
-    var scrollSound = new Howl({
-      src: ['https://cdn.jsdelivr.net/gh/nicolaromei98/wh@85bbd39/scroll.mp3'],
-      volume: 0.5,
-    });
-    (function waitForGSAP() {
-      if (window.gsap && window.ScrollTrigger) {
-        initEffect();
-      } else {
-        setTimeout(waitForGSAP, 50);
-      }
-    })();
-    function initEffect() {
-      const root = document.querySelector('.mwg060');
-      const pinHeight = root.querySelector('.mwg060-pin-height');
-      const container = root.querySelector('.mwg060-container');
-      const slidesContainer = root.querySelector('.mwg060-slides');
-      const slides = Array.from(root.querySelectorAll('.mwg060-slide'));
-      const flexValues = [0.1, 0.12, 0.56, 0.12, 0.1];
-      const clipPathValues = [15, 5, 0, 5, 15, 15];
-      slides.forEach((slide, index) => {
-        const media = slide.querySelector('.mwg060-media');
-        if (index < 5) {
-          gsap.set(slide, { flex: flexValues[index] });
-          gsap.set(media, { clipPath: `inset(0% ${clipPathValues[index]}% round 20px)` });
-        }
-      });
-      const totalSteps = slides.length - 5;
-      gsap.set(slidesContainer, {
-        height: window.innerHeight + (totalSteps - 2) * 0.01 * window.innerHeight + 'px',
-      });
-      var lastStep = -1;
-      const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: pinHeight,
-          start: 'top top',
-          end: 'bottom bottom',
-          pin: container,
-          scrub: true,
-          onUpdate: function (self) {
-            var currentStep = Math.round(self.progress * totalSteps);
-            if (currentStep !== lastStep) {
-              lastStep = currentStep;
-              if (!window.audioEnabled) return;
-              scrollSound.stop();
-              scrollSound.play();
-            }
-          },
-        },
-        defaults: {
-          duration: 1,
-          ease: 'none',
-        },
-      });
-      for (let i = 0; i < totalSteps; i++) {
-        tl.to(slides[i], { flex: 0 }, i);
-        tl.to(
-          slides[i].querySelector('.mwg060-media'),
-          {
-            clipPath: 'inset(0% 15% round 20px)',
-          },
-          i,
-        );
-        tl.to(
-          slidesContainer,
-          {
-            y: '-=' + 0.01 * window.innerHeight + 'px',
-          },
-          i,
-        );
-        for (let j = 0; j < 5; j++) {
-          const slideIdx = i + 1 + j;
-          if (slides[slideIdx]) {
-            const media = slides[slideIdx].querySelector('.mwg060-media');
-            tl.to(slides[slideIdx], { flex: flexValues[j] }, i);
-            tl.fromTo(
-              media,
-              {
-                clipPath: 'inset(0% ' + clipPathValues[j + 1] + '% round 20px)',
-              },
-              {
-                clipPath: 'inset(0% ' + clipPathValues[j] + '% round 20px)',
-              },
-              i,
-            );
-          }
-        }
-      }
-    }
-  })();
-</script>
-  <script>
   function initCookieDarkLight() {
     function updateThemeClasses(theme) {
       const isDark = theme === 'dark';
@@ -754,98 +617,190 @@ a {
   });
 </script>
   <script>
-  (function () {
-    const scriptEl = document.currentScript;
-    (function waitForGSAP() {
-      if (window.gsap && window.Observer) {
-        initEffect();
+(function () {
+  var scrollSound = new Howl({
+    src: ['https://cdn.jsdelivr.net/gh/nicolaromei98/wh@85bbd39/scroll.mp3'],
+    volume: 0.5
+  });
+  (function waitForGSAP() {
+    if (window.gsap && window.Observer) {
+      initEffect();
+    } else {
+      setTimeout(waitForGSAP, 50);
+    }
+  })();
+  function initEffect() {
+    const root = document.querySelector('.mwg088');
+    const container = root.querySelector('.mwg088-container');
+    const viewportWidth = document.body.clientWidth;
+    const inViewport = new Set();
+    let total = 0;
+    let oldX = 0;
+    const mediasData = Array.from(root.querySelectorAll('.mwg088-media-parent')).map((parent) => ({
+      parent,
+      media: parent.querySelector('.mwg088-media'),
+      offsetLeft: parent.offsetLeft,
+      width: parent.offsetWidth,
+    }));
+    mediasData.forEach(({ parent, media, offsetLeft, width }) => {
+      if (offsetLeft < viewportWidth && offsetLeft + width > 0) {
+        inViewport.add(parent);
       } else {
-        setTimeout(waitForGSAP, 50);
+        gsap.set(media, { autoAlpha: 0 });
       }
-    })();
-    function initEffect() {
-      if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
-      const root = document.querySelector('.mwg088');
-      const container = root.querySelector('.mwg088-container');
-      const viewportWidth = document.body.clientWidth;
-      const inViewport = new Set();
-      let total = 0;
-      let oldX = 0;
-      const mediasData = Array.from(root.querySelectorAll('.mwg088-media-parent')).map((parent) => ({
-        parent,
-        media: parent.querySelector('.mwg088-media'),
-        offsetLeft: parent.offsetLeft,
-        width: parent.offsetWidth,
-      }));
+    });
+    const xTo = gsap.quickTo(container, 'x', {
+      duration: 0.5,
+      ease: 'power4',
+      onUpdate: () => {
+        checkViewport();
+      },
+    });
+    function checkViewport() {
+      const currentX = gsap.getProperty(container, 'x');
+      const delta = currentX - oldX;
+      if (delta === 0) return;
+      oldX = currentX;
       mediasData.forEach(({ parent, media, offsetLeft, width }) => {
-        if (offsetLeft < viewportWidth && offsetLeft + width > 0) {
+        const left = offsetLeft + currentX;
+        const isInView = left < viewportWidth && left + width > 0;
+        if (isInView && !inViewport.has(parent)) {
           inViewport.add(parent);
-        } else {
+          if (window.audioEnabled) {
+            scrollSound.stop();
+            scrollSound.play();
+          }
+          const direction = Math.sign(delta);
+          const xFrom = direction * (-100 / (1 + delta / 500));
+          gsap.fromTo(
+            media,
+            { x: xFrom * 4, scale: 0.6, autoAlpha: 1 },
+            { x: 0, scale: 1, duration: 0.8, ease: 'power3.out' }
+          );
+        } else if (!isInView && inViewport.has(parent)) {
+          inViewport.delete(parent);
           gsap.set(media, { autoAlpha: 0 });
         }
       });
-      const xTo = gsap.quickTo(container, 'x', {
-        duration: 0.5,
-        ease: 'power4',
-        onUpdate: () => {
-          checkViewport();
-        },
-      });
-      function checkViewport() {
-        const currentX = gsap.getProperty(container, 'x');
-        const delta = currentX - oldX;
-        if (delta === 0) return;
-        oldX = currentX;
-        mediasData.forEach(({ parent, media, offsetLeft, width }) => {
-          const left = offsetLeft + currentX;
-          const isInView = left < viewportWidth && left + width > 0;
-          if (isInView && !inViewport.has(parent)) {
-            inViewport.add(parent);
-            const direction = Math.sign(delta);
-            const xFrom = direction * (-100 / (1 + delta / 500));
-            gsap.fromTo(
-              media,
-              {
-                x: xFrom * 4,
-                scale: 0.6,
-                autoAlpha: 1,
-              },
-              {
-                x: 0,
-                scale: 1,
-                duration: 0.8,
-                ease: 'power3.out',
-              },
-            );
-          } else if (!isInView && inViewport.has(parent)) {
-            inViewport.delete(parent);
-            gsap.set(media, { autoAlpha: 0 });
-          }
-        });
+    }
+    let isTouch = false;
+    gsap.matchMedia().add('(hover: none)', () => {
+      isTouch = true;
+    });
+    const gsapObs = Observer.create({
+      target: container,
+      type: 'touch,pointer,wheel',
+      onDrag: (self) => {
+        total += isTouch ? self.deltaX * 1.5 : self.deltaX * 1.4;
+        total = gsap.utils.clamp(document.body.clientWidth - container.clientWidth, 0, total);
+        xTo(total);
+      },
+      onWheel: (self) => {
+        total -= self.deltaX;
+        total = gsap.utils.clamp(document.body.clientWidth - container.clientWidth, 0, total);
+        xTo(total);
+      },
+    });
+    const observer = new MutationObserver((mutations) => {
+      const isRootRemoved = mutations.some((mutation) =>
+        mutation.type === 'childList' && Array.from(mutation.removedNodes).includes(root)
+      );
+      if (isRootRemoved) {
+        gsapObs.kill();
+        observer.disconnect();
       }
-      let isTouch = false;
-      gsap.matchMedia().add('(hover: none)', () => {
-        isTouch = true;
-      });
-      const gsapObs = Observer.create({
-        target: container,
-        type: 'touch,pointer',
-        onDrag: (self) => {
-          total += isTouch ? self.deltaX * 1.5 : self.deltaX * 1.4;
-          total = gsap.utils.clamp(document.body.clientWidth - container.clientWidth, 0, total);
-          xTo(total);
-        },
-      });
-      const observer = new MutationObserver((mutations) => {
-        const isRootRemoved = mutations.some((mutation) => mutation.type === 'childList' && Array.from(mutation.removedNodes).includes(root));
-        if (isRootRemoved) {
-          gsapObs.kill();
-          observer.disconnect();
-        }
-      });
-      observer.observe(document.body, { childList: true, subtree: true });
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
+})();
+</script>
+  <script>
+(function(){
+  if (window.innerWidth <= 768) return; // solo desktop
+  var tickerSound = new Howl({
+    src: ['https://cdn.jsdelivr.net/gh/nicolaromei98/wh@85bbd39/scroll.mp3'],
+    volume: 0.16
+  });
+  (function waitForGSAP() {
+    if (window.gsap && window.Observer) {
+      initEffect();
+    } else {
+      setTimeout(waitForGSAP, 50);
     }
   })();
+  function initEffect() {
+    let incrTick = 0, interactionTimeout, yTo, scaleTo;
+    let isScrolling = false;
+    const root = document.querySelector('.mwg019');
+    const content = root.querySelector('.content');
+    const half = content.getBoundingClientRect().height / 2;
+    const wrap = gsap.utils.wrap(-half, 0);
+    const medias = Array.from(root.querySelectorAll('.media'));
+    const centeredSet = new Set();
+    const screenCenter = window.innerHeight / 2;
+    const threshold = 40;
+    yTo = gsap.quickTo(content, "y", {
+      duration: 1,
+      modifiers: { y: gsap.utils.unitize(wrap) },
+      ease: 'power4'
+    });
+    scaleTo = gsap.quickTo(root.querySelector('.container'), "scaleY", {
+      duration: 0.6,
+      ease: 'power4'
+    });
+    const gsapObs = Observer.create({
+      target: window,
+      type: "wheel,pointer,touch",
+      onChange: handleInteraction,
+    });
+    gsap.ticker.add(tick);
+    function handleInteraction(e) {
+      if (e.event.type === "wheel") incrTick -= e.deltaY;
+      else incrTick += e.deltaY;
+      const valSc = 1 - gsap.utils.clamp(-0.2, 0.2, e.deltaY / 300);
+      scaleTo(valSc);
+      isScrolling = true;
+      window.clearTimeout(interactionTimeout);
+      interactionTimeout = setTimeout(() => {
+        isScrolling = false;
+        if (scaleTo.length !== 0) scaleTo(1);
+      }, 66);
+    }
+    function tick(time, dt) {
+      incrTick += dt / 30;
+      yTo(incrTick);
+      checkMediaCenter();
+    }
+    function checkMediaCenter() {
+      medias.forEach(function(media) {
+        const rect = media.getBoundingClientRect();
+        const mediaCenter = rect.top + rect.height / 2;
+        const isAtCenter = Math.abs(mediaCenter - screenCenter) < threshold;
+        if (isAtCenter && !centeredSet.has(media)) {
+          centeredSet.add(media);
+          if (window.audioEnabled && isScrolling) {
+            tickerSound.stop();
+            tickerSound.play();
+          }
+        } else if (!isAtCenter && centeredSet.has(media)) {
+          centeredSet.delete(media);
+        }
+      });
+    }
+    const observer = new MutationObserver(mutations => {
+      const isRootRemoved = mutations.some(mutation =>
+        mutation.type === 'childList' &&
+        Array.from(mutation.removedNodes).includes(root)
+      );
+      if (isRootRemoved) {
+        gsap.ticker.remove(tick);
+        gsapObs.kill();
+        observer.disconnect();
+      }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
+})();
 </script>
 </body>
 </html>

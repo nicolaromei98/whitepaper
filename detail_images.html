@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Tue Jun 02 2026 07:47:24 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Wed Jun 03 2026 12:28:17 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6a1c00a6e8d9bae930b8427a" data-wf-site="6a1959037bddd31cdaecc6fa" lang="en">
 <head>
   <meta charset="utf-8">
@@ -20,19 +20,7 @@
   <script src="https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js" type="text/javascript"></script>
   <script src="https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js" type="text/javascript"></script>
   <script src="https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js" type="text/javascript"></script>
-  <script type="text/javascript">gsap.registerPlugin(SplitText,ScrollTrigger);</script><!--  CSS  -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.2.3/dist/lenis.css">
-  <!--  JS  -->
-  <script src="https://cdn.jsdelivr.net/npm/lenis@1.2.3/dist/lenis.min.js"></script>
-  <!--  JS Lenis  -->
-  <script>
-  // Lenis (with GSAP Scroltrigger)
-  const lenis = new Lenis();
-  lenis.on('scroll', ScrollTrigger.update);
-  gsap.ticker.add((time) => {
-    lenis.raf(time * 1000);
-  });
-  gsap.ticker.lagSmoothing(0);
-</script>
+  <script src="https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js" type="text/javascript"></script>
+  <script type="text/javascript">gsap.registerPlugin(SplitText,ScrollTrigger,Observer);</script>
 </body>
 </html>
